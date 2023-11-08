@@ -887,7 +887,9 @@ footer .arriba:hover{
         justify-content: center;
     }
     .skills .fila{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .skills .fila .col{
