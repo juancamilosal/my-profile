@@ -8,13 +8,14 @@
           integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="icon" type="image/x-icon" href="img/ProWeb-Creation.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
 <!--MENÚ ENCABEZADO-->
 
-<div class="container-header">
+<div class="container-header"  data-aos="zoom-in " data-aos-duration="2000">
     <header>
         <div class="log">
             <a href="#inicio">ProWeb Creation</a>
@@ -38,7 +39,7 @@
 <!--SECCIÓN INICIO-->
 
 <section id="inicio" class="inicio">
-    <div class="container-banner">
+    <div class="container-banner"  data-aos="zoom-in " data-aos-duration="2000">
         <div class="container-img">
             <img src="img/img-proWeb.png" alt="Imagen ProWeb Creation">
             <h1>ProWeb Creation</h1>
@@ -59,13 +60,15 @@
 
 <section id="sobremi" class="sobremi">
     <div class="container-section">
-        <h2>SOBRE MI</h2>
+        <h2 data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500">SOBRE MI</h2>
         <p><span>Hola, soy Camilo Salazar Rojas,</span> programador y diseñador web con experiencia en la creación
             de sitios web funcionales y atractivos, centrándome en la interfaz y la experiencia del usuario para ofrecer
             soluciones en línea efectivas y agradables.</p>
-        <div class="fila">
+        <div class="fila" >
             <!--Datos personales-->
-            <div class="col">
+            <div class="col" >
                 <h3>Datos Personales</h3>
                 <ul>
                     <li>
@@ -102,7 +105,7 @@
                         <i class="fa-solid fa-gamepad"></i>
                         <span>VIDEOJUEGOS</span>
                     </div>
-                    <div class="intereses">
+                    <div class="intereses" >
                         <i class="fa-solid fa-headphones"></i>
                         <span>MÚSICA</span>
                     </div>
@@ -143,7 +146,9 @@
 
 <section class="skills" id="skills">
     <div class="container-section">
-        <h2>SKILLS</h2>
+        <h2 data-aos="fade-down"
+            data-aos-easing="circule"
+            data-aos-duration="2000">SKILLS</h2>
         <div class="fila">
             <!--PROFESIONAL SKILLS-->
             <div class="col">
@@ -255,11 +260,13 @@
 <!--SECCION  CURRICULUM-->
 <section class="curriculum" id="curriculum">
     <div class="container-section">
-        <h2>CURRICULUM</h2>
+        <h2 data-aos="fade-down"
+            data-aos-easing="circule"
+            data-aos-duration="2000">CURRICULUM</h2>
         <div class="fila">
             <div class="col izquierda">
                 <h3>Educación</h3>
-                <div class="item left">
+                <div class="item left"data-aos="fade-up-right">
                     <h4>Programación y Desarrollo Web</h4>
                     <span class="casa">Platzi</span>
                     <span class="fecha">2022 - 2023</span>
@@ -275,7 +282,7 @@
                         <div class="circului"></div>
                     </div>
                 </div>
-                <div class="item left">
+                <div class="item left" data-aos="fade-up-right">
                     <h4>Administración de Empresas</h4>
                     <span class="casa">Pontificia Universidad Javeriana de Cali</span>
                     <span class="fecha">2018 - 2023</span>
@@ -292,7 +299,7 @@
                         <div class="circului"></div>
                     </div>
                 </div>
-                <div class="item left">
+                <div class="item left" data-aos="fade-up-right">
                     <h4>Marketing Digital</h4>
                     <span class="casa">Pontificia Universidad Javeriana de Cali</span>
                     <span class="fecha">2023</span>
@@ -310,7 +317,7 @@
             </div>
             <div class="col derecha">
                 <h3>Experiencia de trabajo</h3>
-                <div class="item right">
+                <div class="item right" data-aos="fade-up-left">
                     <h4>Front Developer</h4>
                     <span class="casa">Datatools SA</span>
                     <span class="fecha">2023 - Actualmente</span>
@@ -327,7 +334,7 @@
                         <div class="circulud"></div>
                     </div>
                 </div>
-                <div class="item right">
+                <div class="item right" data-aos="fade-up-left">
                     <h4>Community Manager & Front Developer</h4>
                     <span class="casa">Euyenid & Edder | Asesores de Seguros</span>
                     <span class="fecha">2023 - Actualemente</span>
@@ -342,7 +349,7 @@
                         <div class="circulud"></div>
                     </div>
                 </div>
-                <div class="item right">
+                <div class="item right" data-aos="fade-up-left">
                     <h4>Community Manager</h4>
                     <span class="casa">Talonary</span>
                     <span class="fecha">2022 - Actualemente</span>
@@ -358,7 +365,7 @@
                         <div class="circulud"></div>
                     </div>
                 </div>
-                <div class="item right">
+                <div class="item right" data-aos="fade-up-left">
                     <h4>Asesor Comercial</h4>
                     <span class="casa">Banco BBVA Colombia</span>
                     <span class="fecha">2014 - 2022</span>
@@ -382,23 +389,25 @@
 
 <section id="portafolio" class="portafolio">
     <div class="container-section">
-        <h2>PORTAFOLIO</h2>
+        <h2 data-aos="fade-down"
+            data-aos-easing="circule"
+            data-aos-duration="2000">PORTAFOLIO</h2>
         <div class="galeria">
-            <div class="proyecto">
+            <div class="proyecto"  data-aos="flip-left">
                 <img src="img/pagina-eye-seguros.png" alt="">
                 <div class="overlay">
                     <h3>Página Web</h3>
                     <p>EyE Asesores de Seguros</p>
                 </div>
             </div>
-            <div class="proyecto">
+            <div class="proyecto"  data-aos="flip-left">
                 <img src="img/pagina-vus.png" alt="">
                 <div class="overlay">
                     <h3>Aplicación Web</h3>
                     <p>Circulemos Digital, CIDI.</p>
                 </div>
             </div>
-            <div class="proyecto">
+            <div class="proyecto"  data-aos="flip-left">
                 <img src="img/juego-palabras.png" alt="">
                 <div class="overlay">
                     <h3>Aplicativo Interactivo</h3>
@@ -413,7 +422,9 @@
 
 <section id="contacto" class="contacto">
     <div class="container-section">
-        <h2>CONTACTO</h2>
+        <h2 data-aos="fade-down"
+            data-aos-easing="circule"
+            data-aos-duration="2000">CONTACTO</h2>
         <div class="fila">
             <!--Formulario-->
             <div class="col">
@@ -468,5 +479,9 @@
     <p>Este sitio es creado by ProWeb Creation. UX Designer, todos los derechos reservados 2023</p>
 </footer>
 <script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
