@@ -186,7 +186,7 @@ html {
 .sobremi .fila .col ul li strong {
     display: inline-block;
     color: #8E84FF;
-    width: 130px;
+    width: 100px;
 }
 
 .sobremi .fila .col ul li span {
@@ -834,7 +834,7 @@ footer .arriba {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -25%;
+    top: -30%;
     border-radius: 50%;
     line-height: 50px;
     font-size: 18px;
@@ -925,5 +925,9 @@ footer .arriba:hover{
 
     .contacto .fila .col{
         width: 100%;
+    }
+
+    footer .arriba{
+        top: 5%;
     }
 }
