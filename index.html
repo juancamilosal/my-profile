@@ -10,7 +10,7 @@
     <link rel="icon" type="image/x-icon" href="img/ProWeb-Creation.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
 <!--MENÚ ENCABEZADO-->
@@ -77,19 +77,11 @@
                     </li>
                     <li>
                         <strong>Teléfono</strong>
-                        (316) 9658003
+                        (310) 7590071
                     </li>
                     <li>
                         <strong>Email</strong>
                         juancamilosalazarrojas@gmail.com
-                    </li>
-                    <li>
-                        <strong>Web Site</strong>
-                        www.prowebcreation.com
-                    </li>
-                    <li>
-                        <strong>Dirección</strong>
-                        Calle 60 #98b-05 Cali, Valle del Cauca
                     </li>
                     <li>
                         <strong>Cargo</strong>
@@ -157,7 +149,7 @@
                     <span>Javascript</span>
                     <div class="barra-skill">
                         <div class="progress">
-                            <span>75%</span>
+                            <span>85%</span>
                         </div>
                     </div>
                 </div>
@@ -173,7 +165,7 @@
                     <span>Angular</span>
                     <div class="barra-skill">
                         <div class="progress">
-                            <span>80%</span>
+                            <span>85%</span>
                         </div>
                     </div>
                 </div>
@@ -181,7 +173,7 @@
                     <span>Tailwind</span>
                     <div class="barra-skill">
                         <div class="progress">
-                            <span>75%</span>
+                            <span>90%</span>
                         </div>
                     </div>
                 </div>
@@ -193,7 +185,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="skill">
+                <div class="skill" hidden="hidden">
                     <span>LIT</span>
                     <div class="barra-skill">
                         <div class="progress">
@@ -244,7 +236,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="skill">
+                <div class="skill"  hidden="hidden">
                     <span>Creatividad</span>
                     <div class="barra-skill">
                         <div class="progress">
@@ -319,17 +311,33 @@
                 <h3>Experiencia de trabajo</h3>
                 <div class="item right" data-aos="zoom-out-down">
                     <h4>Front Developer</h4>
+                    <span class="casa">Digitalab</span>
+                    <span class="fecha">Septiembre 2023 - Actualmente</span>
+                    <p> Como desarrollador Frontend en Digitalab, mi rol principal consiste en diseñar y crear las interfaces visuales de las
+                        diversas aplicaciones web que desarrollamos. Trabajo en estrecha colaboración con equipos multidisciplinarios para
+                        comprender las necesidades del cliente y traducirlas en soluciones tecnológicas efectivas. Utilizando mis habilidades
+                        en HTML, CSS y JavaScript, así como mi experiencia con frameworks como Angular, Tailwind y Bootstrap, me dedico
+                        a construir interfaces atractivas, funcionales y responsivas. Mi objetivo es garantizar que cada usuario tenga una
+                        experiencia fluida e intuitiva al interactuar con nuestras aplicaciones, y estoy comprometido a mantenerme actualizado
+                        con las últimas tendencias y mejores prácticas en el desarrollo frontend para impulsar constantemente la calidad y la
+                        innovación en nuestro trabajo.</p>
+                    <div class="conectord">
+                        <div class="circulud"></div>
+                    </div>
+                </div>
+                <div class="item right" data-aos="zoom-out-down">
+                    <h4>Front Developer</h4>
                     <span class="casa">Datatools SA</span>
-                    <span class="fecha">2023 - Actualmente</span>
-                    <p> Desde enero de 2023, vengo prestando servicios como Frontend Developer en la empresa Datatools,
-                        donde formo parte de un equipo para el proyecto de
+                    <span class="fecha">Enero 2023 - Agosto 2023</span>
+                    <p> Inicié en enero de 2023. Presté servicios como Frontend Developer en la empresa Datatools,
+                        donde formé parte de un equipo para el proyecto de
                         Circulemos Digital. Este proyecto es una iniciativa moderna, ágil y segura, operada por el
                         Consorcio Circulemos Digital, diseñada para atender las necesidades
                         de la ciudadanía interesada en trámites y servicios de movilidad en la ciudad de Bogotá.
-                        Mi rol como Frontend Developer en este proyecto implica la creación y desarrollo de interfaces
+                        Mi rol como Frontend Developer en ese proyecto implicaba la creación y desarrollo de interfaces
                         de usuario atractivas y funcionales, que permiten a
-                        los usuarios interactuar de manera eficiente con la plataforma. Estamos ampliando este proyecto
-                        exitoso para abarcar la ciudad de Cartagena.</p>
+                        los usuarios interactuar de manera eficiente con la plataforma. Este proyecto
+                        exitoso para abarca también la ciudad de Cartagena.</p>
                     <div class="conectord">
                         <div class="circulud"></div>
                     </div>
@@ -393,19 +401,23 @@
              data-aos-easing="linear"
              data-aos-duration="300">PORTAFOLIO</h2>
         <div class="galeria">
-            <div class="proyecto" data-aos="flip-right">
-                <img src="img/pagina-eye-seguros.png" alt="">
+            <div class="proyecto" data-aos="flip-right" >
+                <a id="eye"  target="_blank">
+                <img  src="img/pagina-eye-seguros.png" alt="">
                 <div class="overlay">
                     <h3>Página Web</h3>
                     <p>EyE Asesores de Seguros</p>
                 </div>
+                </a>
             </div>
             <div class="proyecto" data-aos="flip-right">
+                <a id="vus"  target="_blank">
                 <img src="img/pagina-vus.png" alt="">
                 <div class="overlay">
                     <h3>Aplicación Web</h3>
                     <p>Circulemos Digital, CIDI.</p>
                 </div>
+                </a>
             </div>
             <div class="proyecto" data-aos="flip-right">
                 <img src="img/juego-palabras.png" alt="">
@@ -414,7 +426,18 @@
                     <p>Juego de Palabras</p>
                 </div>
             </div>
+            <div class="proyecto" data-aos="flip-right" >
+                <a id="landing"  target="_blank">
+                    <img  src="img/landing-page.png" alt="">
+                    <div class="overlay">
+                        <h3>Landing Page</h3>
+                        <p>Xavier Salcedo Realtor</p>
+                    </div>
+                </a>
+            </div>
         </div>
+    </div>
+    <div class="container-section">
     </div>
 </section>
 
@@ -428,14 +451,16 @@
         <div class="fila">
             <!--Formulario-->
             <div class="col">
-                <input type="text" placeholder="Tú Nombre">
-                <input type="number" placeholder="Número telefónico">
-                <input type="email" placeholder="Dirección de correo">
-                <input type="text" placeholder="Tema">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                <button><i class="fa-solid fa-paper-plane"></i> Enviar Mensaje
-                    <span class="overlay"></span>
-                </button>
+                <form name="contact-form" method="post">
+                    <input id="nombre" type="text" name="NOMBRE" placeholder="Tú Nombre">
+                    <input id="celular" type="number" name="CELULAR" placeholder="Número telefónico">
+                    <input id="email" type="email" name="EMAIL" placeholder="Dirección de correo">
+                    <input id="asunto" type="text" name="ASUNTO" placeholder="Tema">
+                    <textarea id="descripcion" name="DESCRIPCION"  cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button type="submit"><i class="fa-solid fa-paper-plane"></i> Enviar Mensaje
+                        <span class="overlay"></span>
+                    </button>
+                </form>
             </div>
             <!--Mapa-->
             <div class="col">
@@ -448,7 +473,7 @@
                         </li>
                         <li>
                             <i class="fa-solid fa-mobile-screen-button"></i>
-                            Llámanos: (316) 9658003
+                            Llámame: (310) 7590071
                         </li>
                         <li>
                             <i class="fa-solid fa-envelope"></i>

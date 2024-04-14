@@ -333,7 +333,7 @@ html {
         width: 0%;
     }
     100% {
-        width: 75%;
+        width: 85%;
     }
 }
 
@@ -361,7 +361,7 @@ html {
         width: 0%;
     }
     100% {
-        width: 80%;
+        width: 85%;
     }
 }
 
@@ -375,7 +375,7 @@ html {
         width: 0%;
     }
     100% {
-        width: 75%;
+        width: 90%;
     }
 }
 
@@ -393,19 +393,7 @@ html {
     }
 }
 
-.skills .skill .lit {
-    width: 0%;
-    animation: 2s lit forwards;
-}
 
-@keyframes lit {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 60%;
-    }
-}
 
 .skills .skill .comunicacion {
     width: 0%;
@@ -633,6 +621,10 @@ html {
     background-color: #252A2E;
     color: white;
     padding: 50px 20px;
+}
+
+.portafolio a{
+    color: white;
 }
 
 .portafolio .container-section {
