@@ -3,6 +3,7 @@ const URL_EYE = 'https://eyeseguros.com/';
 const URL_VUS = 'https://b2cprdciudadanos.b2clogin.com/b2cprdciudadanos.onmicrosoft.com/b2c_1a_signinvus/oauth2/v2.0/authorize?client_id=dbf00fe0-455f-4d25-baab-403f2ff4a277&scope=openid%20offline_access%20profile&redirect_uri=https%3A%2F%2Fvus.circulemosdigital.com.co%2F&client-request-id=6b64b5b8-bf77-4db7-a42b-b05799855b5d&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=2.30.0&client_info=1&code_challenge=f3peQtBBvwnh1a_136nJT3b7sVJ830AdcoVfuDyrxyo&code_challenge_method=S256&nonce=2d8bd597-71c3-4ab0-9ff7-cf9218640da4&state=eyJpZCI6IjgxNTAwMDQ1LTg0NTEtNDcyZS04YmQwLTdjODU1NDZjZDYwMiIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D/';
 const scriptUrl = 'https://script.google.com/macros/s/AKfycbyFFJbucH8MmiBGHCbg_SC8Ep5fM0l-jXgR_7QiTFH-ELHxeTn1handABHb5fS1JEo2eQ/exec';
 const URL_LANDING = 'https://xaviersalcedorealtor.com/';
+const  URL_LINEA_TIEMPO = 'https://linea-tiempo.vercel.app/'
 const form = document.forms['contact-form'];
 
 const mostrarOcultarMenu = () => {
@@ -47,6 +48,7 @@ window.onscroll = function () {
 document.getElementById('eye').setAttribute('href', URL_EYE);
 document.getElementById('vus').setAttribute('href', URL_VUS);
 document.getElementById('landing').setAttribute('href', URL_LANDING);
+document.getElementById('linea-tiempo').setAttribute('href', URL_LINEA_TIEMPO);
 
 form.addEventListener('submit', e => {
     e.preventDefault()
